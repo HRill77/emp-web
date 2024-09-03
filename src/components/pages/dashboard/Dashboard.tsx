@@ -24,7 +24,8 @@ const Dashboard = () => {
 
     useEffect(()=>{
         refetch();
-    })
+        console.log("ang daming effects");
+    },[])
 
 
     const handleDetele = async (employeeId: any)=>{

@@ -50,9 +50,11 @@ const Employee = () => {
 
             navigate("/")
             console.log("Employee data:",result.data)
+            console.log("whasdashdfka shdfiahsdfla")
         } catch (error) {
             console.log(error)
         }
+
     }
 
     

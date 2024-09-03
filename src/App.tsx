@@ -7,6 +7,7 @@ import Dashboard from './components/pages/dashboard/Dashboard';
 import Notfound from './components/pages/Notfound';
 import Employee from './components/pages/employee/Employee';
 import UpdateEmployee from './components/pages/employee/UpdateEmployee';
+import SFData from './components/pages/dashboard/SFData';
 
 
 function App() {
@@ -14,7 +15,7 @@ function App() {
     <div >
       <NavigationBar/>
       <Routes>
-        <Route path="/" element={<Dashboard/>} />
+        <Route path="/" element={<SFData/>} />
         <Route path="/postemployee" element={<Employee/>} />
         <Route path="/employee/:id" element={<UpdateEmployee/>} />
         <Route path="*" element={<Notfound/>} />

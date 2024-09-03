@@ -37,5 +37,10 @@ class EmployeeService {
     deleteEmployee(id: any){
         return http.delete(`/employee/delete/${id}`)
     }
+
+    // getSFData(id: any){
+    //     return http.post('/salesforce/employee-data', { id 
+    //     })
+    // }
 }
 export default new EmployeeService();
